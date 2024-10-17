@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  color: white;
+  background-color: #2B383A;
+  font-family: 'HP Simplified Hans', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  color: black;
+  background-color: white;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 1rem;
+}
+
+.card {
+  display: flex;
+  border-radius: 16px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 1rem 0;
+  background-color: #456552;
+
+}
+.card img {
+  width: 33.33%;
+  object-fit: cover;
+}
+.card-content {
+  color: #f4f1de;
+  padding: 1rem;
+  width: 66.67%;
+}
