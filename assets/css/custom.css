@@ -11,6 +11,23 @@ body {
   flex-direction: column;
 }
 
+.banner img {
+  max-height: 250px;
+}
+
+.banner {
+  max-height: 250px;
+  /* Isn't working :unamused:
+  background-image: url('../images/banner-background.png');
+  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .button {
   color: black;
   background-color: white;
